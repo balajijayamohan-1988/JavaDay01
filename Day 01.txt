@@ -1,0 +1,432 @@
+project EmployeeDetails // Day1-001
+package org.emp;
+
+public class Employee {
+    	private void empId() {
+		System.out.println("001");
+    	}
+    	private void empName() {
+		System.out.println("Balaji");
+    	}
+	private void empDob() {
+		System.out.println("14.03.1988");
+	}
+	private void empPhone() {
+		System.out.println("8122215933");
+	}
+	private void empEmail() {
+		System.out.println("balaji.jayamohan@gmail.com");
+	}
+	private void empAddress() {
+		System.out.println("108, Maruthapattinam nagar, keezhakasakudy, karaikal-609609,puducherry");
+	}
+public static void main(String[] args) {
+
+	Employee a = new Employee();
+	a.empId();
+	a.empName();
+	a.empDob();
+	a.empPhone();
+	a.empEmail();
+	a.empAddress();
+
+	}
+}
+project GreensAddress //Day1-002
+package org.add;
+
+public class GreensTech {
+	private void greensOmr() {
+	System.out.println("N0.1 Greens Technology Omr");
+	}
+	private void greensAdayar() {
+	System.out.println("No.2 Greens Technology Adayar");
+   	}
+	private void greensTambaram() {
+	System.out.println("No.3 Greens Technology Tambaram");
+    	}
+	private void greensVelacherry() {
+	System.out.println("No.4 Greens Technology Velacherry");	
+	}
+	private void greensAnnaNagar() {
+	System.out.println("No.5 Greens Technology Annanagar");
+	}
+public static void main(String[] args) {
+	GreensTech b = new GreensTech();
+	b.greensOmr();
+	b.greensAdayar();
+	b.greensTambaram();
+	b.greensVelacherry();
+	b.greensAnnaNagar();
+	}
+}
+
+project CompanyDetails //Day1-03
+package org.company;
+
+public class CompanyInfo {
+	private void companyName() {
+		System.out.println("Greens Technology");
+	}
+	private void companyId() {
+		System.out.println("ID is 001");
+	}
+	private void companyAddress() {
+		System.out.println("No.5 OMR Greens Technology");
+	}
+public static void main(String[] args) {
+		CompanyInfo c = new CompanyInfo();
+		c.companyName();
+		c.companyId();
+		c.companyAddress();
+	}
+}
+project MyPhone //Day1-004 
+package org.phone;
+
+public class PhoneInfo {
+	private void phoneName() {
+	System.out.println("Phone model nanme is Vivo 17");
+	}
+	private void phoneMieiNum() {
+	System.out.println("Phone Miei num is 09877655");
+	}
+	private void camera() {
+	System.out.println("Camera 20mps");
+	}
+	private void storage() {
+	System.out.println("Storage is 126GB");
+	}
+	private void osName() {
+	System.out.println("Os name is android ");
+	}
+public static void main(String[] args) {
+	PhoneInfo d = new PhoneInfo();
+	d.phoneName();
+	d.phoneMieiNum();
+	d.camera();
+	d.storage();
+	d.osName();
+	}
+}
+
+project LanguageDetails // Day1 - 005
+package org.lang;
+
+public class LanguageInfo {
+	public void tamilLanguage() {
+		System.out.println("My first language is Tamnil");
+	}
+	public void englishLanguage() {
+		System.out.println("My Second language is English");
+	}
+	public void hindiLanguage() {
+		System.out.println("My third language is Hindi");
+	}
+	
+}
+package org.lang;
+
+public class StateDetails {
+	private void southIndia() {
+		System.out.println("I am in South india");
+}
+	private void northIndia() {
+		System.out.println("I am not in North india");
+	}
+	public static void main(String[] args) {
+		
+		
+		StateDetails a = new StateDetails();
+		a.southIndia();
+		a.northIndia();
+		LanguageInfo b = new LanguageInfo();
+		b.tamilLanguage();
+		b.englishLanguage();
+		b.hindiLanguage();
+	}
+}
+
+project EmployeeInformation // Day 006
+package org.client;
+
+public class Client {
+	public void clientName() {
+		System.out.println("Client Name is Goverment of Tamilnadu");
+		}
+}
+package org.company;
+public class Company {
+	public void companyName() {
+		System.out.println("Company name is TCS");
+	}
+}
+package org.project;
+public class Project {
+	public void projectName() {
+		System.out.println("Project Name is Employeement Department of tamilnadu");
+	}
+}
+package org.emp;
+import org.client.Client;
+import org.company.Company;
+import org.project.Project;
+
+public class Employee {
+	private void empName() {
+		System.out.println("Employee name is Balaji");
+	}
+public static void main(String[] args) {
+	Employee a = new Employee();
+	a.empName();
+	Company b = new Company();
+	b.companyName();
+	Client c = new Client();
+	c.clientName();
+	Project d = new Project();
+	d.projectName();
+	}
+}
+
+project PhoneDetails // Day1 - 007
+package org.phone;
+
+public class ExternalStorage {
+	public void size() {
+		System.out.println("External Storage is 126GB");
+	}
+
+}
+package org.phone;
+
+public class InternalStorage {
+	private void processorName() {
+		System.out.println("Processor name is intel");
+	}
+	private void ramSize() {
+		System.out.println("Ram size is 4GB");
+	}
+public static void main(String[] args) {
+	InternalStorage a = new InternalStorage();
+	a.processorName();
+	a.ramSize();
+	ExternalStorage b = new ExternalStorage();
+	b.size();
+		
+		
+	}
+}
+
+project CollegeInformation // Day1 - 008
+package org.college;
+public class Student {
+	public void studentName() {
+		System.out.println("Student Name is Balaji");
+	}
+
+}
+package org.college;
+public class Hostel {
+	public void hostelName() {
+		System.out.println("Hostel Name is Barathiyar mens Hostel");
+	}
+
+}
+package org.college;
+public class Dept {
+	public void deptName() {
+		System.out.println("Department name is Civil Engineering ");
+	}
+
+}
+package org.college;
+public class College {
+	private void collegeName() {
+		System.out.println("College Name is Pondicherry Engineering College");
+	}
+public static void main(String[] args) {
+	College a = new College();
+	a.collegeName();
+	Student b = new Student();
+	b.studentName();
+	Hostel c = new Hostel();
+	c.hostelName();
+	Dept d = new Dept();
+	d.deptName();
+	}
+
+}
+
+project VehicleInformation // Day1 - 009
+package org.twowheeler;
+import java.awt.MultipleGradientPaint.CycleMethod;
+
+public class TwoWheeler {
+	public void bike() {
+		System.out.println("Bike name is honda shine 100");
+	}
+	public void cycle() {
+		System.out.println("Cycle name is Hero Brand");
+	}
+}
+
+package org.threewheeler;
+public class ThreeWheeler {
+	public void auto() {
+		System.out.println("auto brand is bajaj");
+	}
+
+}
+package org.fourwheeler;
+
+public class FourWheeler {
+	public void car() {
+		System.out.println("Car model is honda city");
+	}
+	public void bus() {
+		System.out.println("Bus company name is Tata");
+	}
+	public void lorry() {
+		System.out.println("Lorry company is Bharath Benz");
+	}
+}
+package org.allvehicle;
+
+import org.fourwheeler.FourWheeler;
+import org.threewheeler.ThreeWheeler;
+import org.twowheeler.TwoWheeler;
+
+public class Vehicle {
+	private void vehicleNecessery() {
+		System.out.println("Vehicle Necessery is must for Student");
+	}
+public static void main(String[] args) {
+		Vehicle a = new Vehicle();
+		a.vehicleNecessery();
+		TwoWheeler b = new TwoWheeler();
+		b.bike();
+		b.cycle();
+		ThreeWheeler c = new ThreeWheeler();
+		c.auto();
+		FourWheeler d = new FourWheeler();
+		d.car();
+		d.bus();
+		d.lorry();
+	}
+}
+
+project TransportInformation // Day1 - 010
+package org.air;
+
+public class Air {
+	public void aeroPlane() {
+		System.out.println("Aeroplane using of cargo and passenger service");
+	}
+	public void heliCopter() {
+		System.out.println("Helicopter using for domestic purpose");
+	}
+}
+
+package org.road;
+
+public class Road {
+	public void bike() {
+		System.out.println("Bike using main road");
+	}
+	public void cycle() {
+		System.out.println("Cycle using Service road");
+		}
+	public void bus() {
+		System.out.println("Bus using main road");
+	}
+	public void car() {
+		System.out.println("Car using main road");
+	}
+
+}
+package org.water;
+
+public class Water {
+	public void boat() {
+		System.out.println("Boat we can use lake and sea");
+	}
+	public void ship() {
+		System.out.println("Ship we can use in sea ");
+	}
+	
+}
+package org.transport;
+
+import org.air.Air;
+import org.road.Road;
+import org.water.Water;
+
+public class Transport {
+	private void transportForm() {
+		System.out.println("Transport form available in RTO office");
+	}
+	public static void main(String[] args) {
+		Transport a = new Transport();
+		a.transportForm();
+		Road b = new Road();
+		b.bike();
+		b.cycle();
+		b.bus();
+		b.car();
+		Air c = new Air();
+		c.aeroPlane();
+		c.heliCopter();
+		Water d = new Water();
+		d.boat();
+		d.ship();
+		
+	}
+}
+
+project NetworkInformation // Day01 - 011
+package org.network;
+
+public class Lan {
+	public void lanName() {
+		System.out.println("Lan name is 1234");
+	}
+}
+package org.network;
+
+public class MobileData {
+	public void dataName() {
+		System.out.println("Data name is xyz");
+	}
+
+}
+package org.network;
+
+public class Wireless {
+	public void modemName() {
+		System.out.println("Modem Name is Digitech");
+	}
+}
+package org.network;
+
+public class Wifi {
+	private void wifiName() {
+		System.out.println("Wifi name is BSNL");
+	}
+public static void main(String[] args) {
+		Wifi a = new Wifi();
+		a.wifiName();
+		MobileData b = new MobileData();
+		b.dataName();
+		Lan c = new Lan();
+		c.lanName();
+		Wireless d = new Wireless();
+		d.modemName();
+	}
+
+}
+
+
+
+	
+	
+	
