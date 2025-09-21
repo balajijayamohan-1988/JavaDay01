@@ -48,9 +48,10 @@ puducherry
 
 
 
-project GreensAddress //Day1-002
+//
+//Exersize 002
+//project GreensAddress
 package org.add;
-
 public class GreensTech {
 	private void greensOmr() {
 	System.out.println("N0.1 Greens Technology Omr");
@@ -67,19 +68,22 @@ public class GreensTech {
 	private void greensAnnaNagar() {
 	System.out.println("No.5 Greens Technology Annanagar");
 	}
-public static void main(String[] args) {
-	GreensTech b = new GreensTech();
-	b.greensOmr();
-	b.greensAdayar();
-	b.greensTambaram();
-	b.greensVelacherry();
-	b.greensAnnaNagar();
+	public static void main(String[] args) {
+		GreensTech g = new GreensTech();
+		g.greensOmr();
+		g.greensAdayar();
+		g.greensTambaram();
+		g.greensVelacherry();
+		g.greensAnnaNagar();
 	}
 }
 
+
+
+
+
 project CompanyDetails //Day1-03
 package org.company;
-
 public class CompanyInfo {
 	private void companyName() {
 		System.out.println("Greens Technology");
@@ -97,9 +101,14 @@ public static void main(String[] args) {
 		c.companyAddress();
 	}
 }
+
+
+
+
+
+//Exersize -04
 project MyPhone //Day1-004 
 package org.phone;
-
 public class PhoneInfo {
 	private void phoneName() {
 	System.out.println("Phone model nanme is Vivo 17");
@@ -126,9 +135,13 @@ public static void main(String[] args) {
 	}
 }
 
+
+
+
+
+Exersize - 05
 project LanguageDetails // Day1 - 005
 package org.lang;
-
 public class LanguageInfo {
 	public void tamilLanguage() {
 		System.out.println("My first language is Tamnil");
@@ -163,6 +176,11 @@ public class StateDetails {
 	}
 }
 
+
+
+
+
+Exersize - 06
 project EmployeeInformation // Day 006
 package org.client;
 
@@ -204,6 +222,11 @@ public static void main(String[] args) {
 	}
 }
 
+
+
+
+
+//Exersize - 07
 project PhoneDetails // Day1 - 007
 package org.phone;
 
@@ -233,6 +256,12 @@ public static void main(String[] args) {
 	}
 }
 
+
+
+
+
+
+//Exersize - 08
 project CollegeInformation // Day1 - 008
 package org.college;
 public class Student {
@@ -273,6 +302,11 @@ public static void main(String[] args) {
 
 }
 
+
+
+
+
+//Exersize - 09
 project VehicleInformation // Day1 - 009
 package org.twowheeler;
 import java.awt.MultipleGradientPaint.CycleMethod;
@@ -331,6 +365,11 @@ public static void main(String[] args) {
 	}
 }
 
+
+
+
+
+//Exersize - 010
 project TransportInformation // Day1 - 010
 package org.air;
 
@@ -399,6 +438,11 @@ public class Transport {
 	}
 }
 
+
+
+
+
+//Exersize - 011
 project NetworkInformation // Day01 - 011
 package org.network;
 
