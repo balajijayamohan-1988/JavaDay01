@@ -1,4 +1,4 @@
-//print somothing from methods in class
+//print something from methods in class
 //Exersize -01
 //project EmployeeDetails
 package org.emp;
