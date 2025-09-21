@@ -39,7 +39,10 @@ Emloyee Name is Balaji
 Employee DOB is 14.03.1988 
 Employee phone number is 8122215933
 Employee Email ID si balaji.jayamohan@gmail.com
-Employee Address is 108, Maruthapattinam nagar, keezhakasakudy, karaikal-609609,puducherry
+Employee Address is 108, Maruthapattinam nagar
+keezhakasakudy
+karaikal-609609
+puducherry
 
 
 
