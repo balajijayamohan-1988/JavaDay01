@@ -1,37 +1,50 @@
-project EmployeeDetails // Day1-001
+//print somothing from methods in class
+//Exersize -01
+//project EmployeeDetails
 package org.emp;
-
 public class Employee {
-    	private void empId() {
-		System.out.println("001");
-    	}
-    	private void empName() {
-		System.out.println("Balaji");
-    	}
+    private void empId() {
+		System.out.println("Employee Id is 001");
+    }
+    private void empName() {
+		System.out.println("Emloyee Name is Balaji");
+    }
 	private void empDob() {
-		System.out.println("14.03.1988");
+		System.out.println("Employee DOB is 14.03.1988");
 	}
 	private void empPhone() {
-		System.out.println("8122215933");
+		System.out.println("Employee phone number is 8122215933");
 	}
 	private void empEmail() {
-		System.out.println("balaji.jayamohan@gmail.com");
+		System.out.println("Employee Email ID si balaji.jayamohan@gmail.com");
 	}
 	private void empAddress() {
-		System.out.println("108, Maruthapattinam nagar, keezhakasakudy, karaikal-609609,puducherry");
+		System.out.println("Employee Address is \n108, Maruthapattinam nagar, keezhakasakudy \nkaraikal-609609\npuducherry");
 	}
-public static void main(String[] args) {
+	public static void main(String[] args) {
 
-	Employee a = new Employee();
-	a.empId();
-	a.empName();
-	a.empDob();
-	a.empPhone();
-	a.empEmail();
-	a.empAddress();
+		Employee a = new Employee();
+		a.empId();
+		a.empName();
+		a.empDob();
+		a.empPhone();
+		a.empEmail();
+		a.empAddress();
 
 	}
 }
+/*
+Employee Id is 001 
+Emloyee Name is Balaji
+Employee DOB is 14.03.1988 
+Employee phone number is 8122215933
+Employee Email ID si balaji.jayamohan@gmail.com
+Employee Address is 108, Maruthapattinam nagar, keezhakasakudy, karaikal-609609,puducherry
+
+
+
+
+
 project GreensAddress //Day1-002
 package org.add;
 
